@@ -6,3 +6,4 @@
 * [examples](https://github.com/pyneng/pyneng-online-jan-apr-2018/tree/master/examples) - примеры кода, которые используются на лекциях
 * [exercises](https://github.com/pyneng/pyneng-online-jan-apr-2018/tree/master/exercises) - домашние задания
 * [presentations](https://github.com/pyneng/pyneng-online-jan-apr-2018/tree/master/presentations) - PDF версии презентаций
+

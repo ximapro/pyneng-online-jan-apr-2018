@@ -6,6 +6,13 @@ try:
 except ModuleNotFoundError:
     print("Установите PyGithub: pip install PyGithub")
 
+#### Укажите свой логин, пароль и имя репозитория:
+#Имя пользователя GitHub:
+username = ''
+#Пароль пользователя на GitHub
+password = ''
+#Название репозитория. Например pyneng/online-3-natasha-samoylenko
+repo_name = 'pyneng/'
 
 
 error_message = '''
@@ -15,14 +22,6 @@ $ python submit_tasks.py "Сделал задания 3.1, 3.2, 3.3"
 К последнему коммиту добавлен такой комментарий:
 Сделал задания 3.1, 3.2, 3.3
 '''
-
-#### Укажите свой логин, пароль и имя репозитория:
-#Имя пользователя GitHub:
-username = ''
-#Пароль пользователя на GitHub
-password = ''
-#Название репозитория. Например pyneng/online-3-natasha-samoylenko
-repo_name = 'pyneng/'
 
 
 def post_comment_to_last_commit(msg, delta_days=14):
